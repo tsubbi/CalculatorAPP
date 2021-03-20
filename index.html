@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Calculator</h1>
+    </header>
+
+    <main>
+        <div id="calculator">
+            <!-- TODO: This is where the calcluator shows -->
+            <div class="result-area">
+                <div id="calculator-string">1 + 1</div>
+                <div id="calculator-result">2</div>
+            </div>
+            
+            <div id="calculator-buttons">
+                <div class="row">
+                    <button class="digit" type="button" value="7">7</button>
+                    <button class="digit" type="button" value="8">8</button>
+                    <button class="digit" type="button" value="9">9</button>
+                    <button class="operator" type="button" value="+">+</button>
+                </div>
+                <div class="row">
+                    <button class="digit" type="button" value="4">4</button>
+                    <button class="digit" type="button" value="5">5</button>
+                    <button class="digit" type="button" value="6">6</button>
+                    <button class="operator" type="button" value="-">-</button>
+                </div>
+                <div class="row">
+                    <button class="digit" type="button" value="1">1</button>
+                    <button class="digit" type="button" value="2">2</button>
+                    <button class="digit" type="button" value="3">3</button>
+                    <button class="operator" type="button" value="*">*</button>
+                </div>
+                <div class="row">
+                    <button class="digit" type="button" value="0">0</button>
+                    <button class="decimal" type="button" value=".">.</button>
+                    <button class="operator" type="button" value="/">/</button>
+                </div>
+                <div class="row">
+                    <button class="clear" type="button" value="C">C</button>
+                    <button class="equal" type="button" value="=">=</button>
+                </div>
+            </div>
+        </div>
+        <div id="source-info">
+            <!-- TODO: This is where to put the source code -->
+        </div>
+    </main>
+
+    <script src="./js/main.mjs"></script>
 </body>
 </html>
